@@ -2,7 +2,7 @@
 
 > 软件工程 · 第一次结对作业（需求分析与原型设计）
 > 成员A：吴怡霏 102401206　　成员B：薛锦荣 102401213
-> 在线原型：**【部署后填写】**
+> 在线原型：**https://emiliaistureangle.github.io/school-things-find/**
 
 ---
 
@@ -27,7 +27,6 @@
 ├── blog/
 │   ├── 博客园正文-成员A.md                                   # 成员A 的博客正文（正文约 1050 字）
 │   ├── 博客园正文-成员B.md                                   # 成员B 的博客正文（正文约 1050 字）
-│   ├── 博客园正文-母版.md                                    # 母版，改正文后据此重新生成两份
 │   └── 结对过程与个人总结.md                                 # PSP、结对记录、详细个人总结
 ├── docs/
 │   └── 结对协作与提交步骤.md                                 # 分工方案 + GitHub 协作步骤
@@ -76,7 +75,7 @@
 > 包含**两人分工、A/B 两份博客的差异、PR 协作流程与时间安排**的完整版见
 > [`docs/结对协作与提交步骤.md`](./docs/结对协作与提交步骤.md)。下面只保留最关键的推送与部署命令。
 
-1. 在 GitHub 新建 **Public** 仓库，例如 `campus-lost-and-found`（不要勾选 Add README）
+1. 在 GitHub 新建 **Public** 仓库，例如 `school-things-find`（不要勾选 Add README）
 2. 在本地项目目录执行：
 
 ```bash
@@ -84,7 +83,7 @@ git init
 git add .
 git commit -m "docs: 完成需求分析与原型设计"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/campus-lost-and-found.git
+git remote add origin https://github.com/emiliaistureangle/school-things-find.git
 git push -u origin main
 ```
 
@@ -92,7 +91,7 @@ git push -u origin main
 4. 等 1—2 分钟，访问：
 
 ```
-https://<你的用户名>.github.io/campus-lost-and-found/
+https://emiliaistureangle.github.io/school-things-find/
 ```
 
 根目录的 `index.html` 会自动跳转到 `prototype/`，所以这个短链接就是**原型在线链接**，可直接填进博客。
